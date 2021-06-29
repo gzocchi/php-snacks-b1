@@ -30,7 +30,7 @@ function numberArray($nMin = 0, $nMax = 50, $aLength = 30){
         <h1>Numeri casuali</h1>
         <ul>
         <?php 
-        $casualNumber = numberArray(1, 25, 10);
+        $casualNumber = numberArray(1, 25, 15);
         for ($i=0; $i<count($casualNumber); $i++) { 
             echo "<li>" . $casualNumber[$i] . "</li>";
         }
